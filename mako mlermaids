@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mako Universe</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0a2d5c;
+    color:white;
+}
+
+header{
+    background:#0088cc;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#006699;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:#114477;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
+}
+
+.profile{
+    background:#0d5a8a;
+    padding:20px;
+    border-radius:15px;
+}
+
+footer{
+    background:#006699;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+button{
+    background:#00bfff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0099dd;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🌊 Mako Universe 🌊</h1>
+<p>H2O: Just Add Water & Mako Mermaids Fan Website</p>
+</header>
+
+<nav>
+<a href="#krachten">Krachten</a>
+<a href="#plekken">Plekken</a>
+<a href="#personages">Personages</a>
+<a href="#profiel">Mijn Profiel</a>
+</nav>
+
+<section>
+
+<div class="card">
+<h2>Welkom</h2>
+
+<p>Ontdek alles over H2O: Just Add Water en Mako Mermaids.</p>
+
+<p>Lees informatie over:</p>
+
+<ul>
+<li>💧 Krachten</li>
+<li>🧜 Personages</li>
+<li>🌕 Mako Island</li>
+<li>⭐ Maak je eigen personage</li>
+</ul>
+
+</div>
+
+<div class="card" id="krachten">
+
+<h2>💧 Krachten</h2>
+
+<h3>Hydrokinese</h3>
+<p>Water besturen.</p>
+
+<h3>Cryokinese</h3>
+<p>Water veranderen in ijs.</p>
+
+<h3>Hydro-Thermokinese</h3>
+<p>Water verwarmen en laten koken.</p>
+
+</div>
+
+<div class="card" id="plekken">
+
+<h2>🌕 Plekken</h2>
+
+<ul>
+<li>Moon Pool</li>
+<li>Mako Island</li>
+<li>Ocean Café</li>
+<li>Mako Caves</li>
+<li>Vulkaan</li>
+</ul>
+
+</div>
+
+<div class="card" id="personages">
+
+<h2>🧜 Bekende Personages</h2>
+
+<ul>
+<li>Emma</li>
+<li>Cleo</li>
+<li>Rikki</li>
+<li>Bella</li>
+<li>Zac</li>
+<li>Mimmi</li>
+<li>Ondina</li>
+<li>Sirena</li>
+<li>Lyla</li>
+<li>Nixie</li>
+<li>Weilan</li>
+<li>Evie</li>
+</ul>
+
+</div>
+
+<div class="profile" id="profiel">
+
+<h2>👤 Mijn Profiel</h2>
+
+<p><b>Naam:</b> Jonathan</p>
+
+<p><b>Soort:</b> Zeemeerman</p>
+
+<p><b>Krachten:</b></p>
+
+<ul>
+<li>💧 Hydrokinese</li>
+<li>❄️ Cryokinese</li>
+<li>🔥 Hydro-Thermokinese</li>
+</ul>
+
+<p><b>Favoriete plek:</b> Moon Pool</p>
+
+<button onclick="alert('Welkom Jonathan!')">Bekijk Profiel</button>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Mako Universe Fan Website
+
+</footer>
+
+</body>
+</html>
